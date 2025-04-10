@@ -6,7 +6,13 @@ This repository contains a Verilog implementation of the **AMBA AHB-Lite (Advanc
 
 ## 📦 Repository Structure
 
-ahb-lite-verilog/ │ ├── src/ # Verilog source files │ ├── ahb_master.v # AHB-Lite Master module │ ├── ahb_slave.v # AHB-Lite Slave module │  ├── ahb_mux.v # Address/data multiplexer │ ├── tb/ # Testbenches │ ├── tb_ahb_system.v # Top-level testbench │ ├── docs/ # Documentation │  
+AHB Master: Initiates read/write transactions and manages burst transfers.
+
+Decoder: Selects slaves based on address decoding.
+
+Slaves: Memory-backed modules handling data storage and response generation.
+
+Multiplexor: Routes read data and responses from slaves to the master.
 
 ---
 
