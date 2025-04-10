@@ -20,7 +20,7 @@ Multiplexor: Routes read data and responses from slaves to the master.
 
 **AMBA AHB-Lite** is a high-performance, pipelined bus protocol designed for efficient communication between a single master and multiple slaves. Key features:
 - Single master, multiple slave architecture
-- 32/64-bit data buses
+- 32 data buses
 - Burst and single transfers
 - Address and data phases are pipelined
 - Ready/valid handshaking via `HREADY` and `HRESP`
